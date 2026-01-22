@@ -1,0 +1,66 @@
+    body {
+        background: #d9d9d9;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .counter-button {
+        background: white;
+        border-radius: 28px;
+        width: auto;
+        cursor: pointer;
+        padding: 8px 24px;
+        font-size: medium;
+        color: black;
+        border: none;
+        flex: 1;
+    }
+
+    .counter-button:hover {
+        background-color: antiquewhite;
+    }
+
+    .visit-card {
+        background: white;
+        max-width: 300px;
+        height: 550px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 42px;
+        padding: 8px;
+        gap: 8px;
+    }
+
+    .visit-card-info {
+        background-image: url(https://wallpaperaccess.com/full/257851.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: 42px;
+        align-content: flex-end;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        padding: 24px;
+        backdrop-filter: blur(2px);
+        border-radius: 0 0 42px 42px;
+        font-size: 40px;
+        color: white;
+    }
+
+    .bottons {
+        display: flex;
+        font-size: small;
+        justify-content: space-between;
+        gap: 8px;
+    }
