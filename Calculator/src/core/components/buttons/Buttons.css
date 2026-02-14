@@ -1,0 +1,75 @@
+.btn {
+    border-radius: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #104007;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn-small {
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+}
+
+.btn-medium {
+    width: 64px;
+    height: 64px;
+    font-size: 18px;
+}
+
+.btn-large {
+    width: 140px;
+    height: 64px;
+    font-size: 18px;
+}
+
+.btn-number {
+    background-color: #ffffff;
+}
+
+.btn-number:hover {
+    background-color: #8dae8d;
+}
+
+.btn-operator {
+    background-color: #caddc9;
+}
+
+.btn-operator:hover {
+    background-color: #8dae8d;
+}
+
+.btn-character {
+    background-color: #ffffff;
+}
+
+.btn-character:hover {
+    background-color: #8dae8d;
+}
+
+.btn-equal {
+    background-color: #ffffff;
+    border: 4px solid #caddc9;
+}
+
+.btn-clean {
+    background-color: #caddc9;
+}
+
+.btn-clean:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #caddc9;
+}
+
+.btn-delete:hover {
+    background-color: #8dae8d;
+}

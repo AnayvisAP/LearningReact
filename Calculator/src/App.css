@@ -1,0 +1,28 @@
+.calculator {
+    background-color: #F1F1EF;
+    padding: 8px;
+    border-radius: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.screen {
+    background-color: white;
+    height: 24px;
+    border-radius: 18px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    text-align: right;
+}
+
+.display {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 300;
+    word-break: break-all;
+}
